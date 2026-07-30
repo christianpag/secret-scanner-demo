@@ -1,0 +1,7 @@
+title = "Demo Gitleaks Configuration"
+
+[[rules]]
+id = "demo-secret"
+description = "Demo secret for assignment"
+regex = '''DEMO_SECRET_[A-Z0-9]{8}'''
+tags = ["demo", "test"]
